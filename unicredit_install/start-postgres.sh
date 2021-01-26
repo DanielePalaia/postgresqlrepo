@@ -1,1 +1,1 @@
-pg_autoctl create postgres     --hostname 172.16.125.212     --auth trust   --monitor postgres://autoctl_node@172.16.125.210:5432/pg_auto_failover?sslmode=require --pgdata /home/postgres/unicredit6 --pgctl /bin/pg_ctl --no-ssl
+pg_autoctl create postgres     --hostname 172.16.125.191     --auth scram-sha-256    --monitor postgres://autoctl_node:h4ckm3@172.16.125.210:5432/pg_auto_failover?sslmode=prefer --pgdata /var/lib/pgsql/data --pgctl /bin/pg_ctl --no-ssl
