@@ -1,7 +1,7 @@
 #!/bin/bash
   
 echo 'step one: pg_config'
-cp ./pg_stat_statements/pg_config /usr/bin/
+cp ./pg_config /usr/bin/
 chmod 755 /usr/bin/pg_config
 
 echo 'step two: copy .sql and control'
